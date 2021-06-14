@@ -1,0 +1,104 @@
+/* Global */
+
+/* Header  */
+
+/* Main */
+section{
+    margin:500px;
+}
+/* Footer */
+footer {
+    background-color: #141415;
+  }
+  .footer__top h3 {
+    font-size: 24px;
+    margin: 1.5rem;
+    color: #ff4f81;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .footer__top p {
+    color: #8b8b96;
+    font-size: 15px;
+    line-height: 2em;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+  }
+  .footer__link,
+  .footer__contact {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .footer__link i {
+    color: #ff4f81;
+    margin-right: 1rem;
+  }
+  .footer__link a,
+  .footer__contact a {
+    color: #8b8b96;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.5em;
+    transition: all 0.5s;
+  }
+  
+  .footer__link a:hover,
+  .footer__contact a:hover {
+    color: white;
+  }
+  .footer__contact i {
+    color: white;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #4b4b50;
+    text-align: center;
+    line-height: 32px;
+    margin-right: 1rem;
+  }
+  .footer__form {
+    margin-top: 3rem;
+  }
+  .footer__form .form-group{
+    align-items: center;
+  }
+  .footer__form label {
+    color: #ff4f81;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .footer__form input {
+    padding: 14px;
+    height: auto;
+    border-radius: 0;
+    border: none;
+    color: #888;
+    letter-spacing: 1px;
+  }
+  .footer__form button {
+    background-color: #ff4f81;
+    padding: 12px 35px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    color: white;
+    outline: none;
+    transition: all 0.5s;
+    border: none;
+  }
+  .footer__form button:hover {
+    background-color: #ec1955;
+    color: white;
+  }
+  .footer__bottom {
+    background-color: #0f0f10;
+    text-align: center;
+    padding: 1rem 0;
+    letter-spacing: 1px;
+    color: white;
+  }
+  .footer__bottom a {
+    text-decoration: none;
+    color: #ff4f81;
+  }
